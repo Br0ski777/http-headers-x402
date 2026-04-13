@@ -28,6 +28,42 @@ Do NOT use for SSL certificate check -- use security_check_ssl instead. Do NOT u
         },
         required: ["url"],
       },
+      outputSchema: {
+          "type": "object",
+          "properties": {
+            "url": {
+              "type": "string",
+              "description": "URL analyzed"
+            },
+            "statusCode": {
+              "type": "number",
+              "description": "HTTP status code"
+            },
+            "headers": {
+              "type": "object",
+              "description": "Response headers"
+            },
+            "securityHeaders": {
+              "type": "object",
+              "description": "Security header analysis"
+            },
+            "score": {
+              "type": "number",
+              "description": "Security score"
+            },
+            "issues": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "url",
+            "statusCode",
+            "headers"
+          ]
+        },
     },
   ],
 };
