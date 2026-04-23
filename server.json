@@ -12,7 +12,7 @@
   "remotes": [
     {
       "type": "sse",
-      "url": "https://http-headers-production.up.railway.app/mcp"
+      "url": "https://http-headers-x402-production.up.railway.app/mcp"
     }
   ]
 }
