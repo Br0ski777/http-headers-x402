@@ -37,7 +37,7 @@ Any x402-aware client ([`@x402/fetch`](https://www.npmjs.com/package/@x402/fetch
 
 | Tool | Method | Path | Price | Description |
 |---|---|---|---|---|
-| `network_analyze_headers` | POST | `/api/analyze` | $0.001 | Analyze HTTP response headers for a URL |
+| `network_analyze_headers` | POST | `/api/analyze` | $0.003 | Analyze HTTP response headers for a URL |
 
 ### `network_analyze_headers`
 
