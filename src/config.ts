@@ -9,7 +9,7 @@ export const API_CONFIG: ApiConfig = {
     {
       method: "POST",
       path: "/api/analyze",
-      price: "$0.001",
+      price: "$0.003",
       description: "Analyze HTTP response headers for a URL",
       toolName: "network_analyze_headers",
       toolDescription: `Use this when you need to analyze HTTP response headers of a URL for security and configuration. Returns a full header audit in JSON.
